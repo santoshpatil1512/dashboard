@@ -1,0 +1,36 @@
+.recent-orders {
+    background-color: #2c2c2c;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: #e0e0e0;
+  }
+  
+  .recent-orders h2 {
+    margin: 0 0 20px;
+  }
+  
+  .order {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #444;
+  }
+  
+  .order span {
+    flex: 1;
+    color: #fff;
+  }
+  
+  .status.delivered {
+    color: #4caf50;
+  }
+  
+  .status.cancelled {
+    color: #f44336;
+  }
+  
+  .status.pending {
+    color: #ff9800;
+  }
+  
